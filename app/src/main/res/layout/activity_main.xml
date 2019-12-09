@@ -66,6 +66,7 @@
             android:id="@+id/btn_eliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btnDetele"
             android:text="Eliminar"
             tools:layout_editor_absoluteX="162dp"
             tools:layout_editor_absoluteY="479dp" />
@@ -81,6 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Modificar"
+            android:onClick="btnUpdate"
             tools:layout_editor_absoluteX="169dp"
             tools:layout_editor_absoluteY="547dp" />
 
@@ -88,6 +90,7 @@
             android:id="@+id/btn_ver_todo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btnView"
             android:text="Ver todo"
             tools:layout_editor_absoluteX="166dp"
             tools:layout_editor_absoluteY="627dp" />
