@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/add_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="id"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/add_rut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Rut"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/add_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/add_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnAdd"
+            android:text="Agregar"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="406dp" />
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="479dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modificar"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="547dp" />
+
+        <Button
+            android:id="@+id/btn_ver_todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver todo"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="627dp" />
+    </LinearLayout>
+</LinearLayout>
